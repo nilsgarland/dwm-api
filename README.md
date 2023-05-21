@@ -32,7 +32,7 @@ Additionally, you need SQLite3 installed to create and manage the database.
     sqlite3 ./database/database.db
 
 Inside the SQLite shell, create the meetings table:
-sql
+
     CREATE TABLE meetings (
         id INTEGER PRIMARY KEY,
         day TEXT NOT NULL,
